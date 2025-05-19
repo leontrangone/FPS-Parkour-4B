@@ -18,7 +18,8 @@ public class RespawnOnFall : MonoBehaviour
     {
         if(transform.position.y < yRespawnValue)
         {
-            Debug.Log("Me caì ");
+            //Debug.Log("Me caì ");
+            SceneManager.LoadScene("FPS PARKOUR");
         }
     }
 }
