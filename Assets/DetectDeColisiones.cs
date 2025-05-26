@@ -6,7 +6,10 @@ public class DetectDeColisiones : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Contacto");
-        Destroy(collision.gameObject);
+        if (collision.gameObject.name == "Player")
+        {
+            Debug.Log("Contacto con " + collision.gameObject.name);
+            Destroy(gameObject);
+        }
     }
 }
