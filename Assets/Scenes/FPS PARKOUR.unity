@@ -690,7 +690,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 780139128d46398408a930506f1b0a0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 100
+  money: 35
+  uiManager: {fileID: 0}
 --- !u!4 &1098009905 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2953252443931538854, guid: 69cfab1bca772b24aa9ed3f9c0b39559,
@@ -981,7 +982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa834dcd60d4a548819ee62cd287281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txtMoney: {fileID: 0}
+  txtMoney: {fileID: 2063986676}
 --- !u!4 &1579197946
 Transform:
   m_ObjectHideFlags: 0
