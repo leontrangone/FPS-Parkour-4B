@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoneyManager : MonoBehaviour
 {
-
+    int amount = 100;
     public float money;
     public UIManager uiManager;
 
