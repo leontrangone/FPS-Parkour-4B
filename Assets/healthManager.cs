@@ -20,7 +20,7 @@ public class healthManager : MonoBehaviour
             Debug.Log("Game Over");
             return false;
         }
-        health -= damageAmount;
+        health += damageAmount;
         uiManager.UpdateHealthText(health.ToString());
         return true;
     }

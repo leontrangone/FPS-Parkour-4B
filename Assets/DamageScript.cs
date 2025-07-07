@@ -18,7 +18,7 @@ public class DamageScript : MonoBehaviour
         {
             if (HealthManager.UpdateHealth(-damage))
             {
-                Destroy(gameObject);
+                Debug.Log("Sufriste 5 de daño");
             }
         }
     }
