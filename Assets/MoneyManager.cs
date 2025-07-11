@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoneyManager : MonoBehaviour
 {
-    int amount = 100;
+    int amount = 0;
     public float money;
     public UIManager uiManager;
 
@@ -15,17 +15,8 @@ public class MoneyManager : MonoBehaviour
 
     public bool UpdateMoney(float amount)
     {
-        if(money < amount)
-        {
-            //Impedir Compra
-            Debug.Log("Dinero Insuficiente");
-            return false;
-        }
-        else
-        {
-            money += amount;
-            uiManager.UpdateMoneyText(money.ToString());
-            return true;
-        }
+        money += amount;
+        uiManager.UpdateMoneyText(money.ToString());
+        return true;
     }
 }
